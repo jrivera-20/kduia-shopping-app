@@ -5,6 +5,7 @@ import CartValue from './components/CartValue';
 import ExpenseList from './components/ExpenseList';
 import ItemSelected from './components/ItemSelected';
 import Location from './components/Location';
+import Budget from './components/Budget';
 const App = () => {
     return (
         <AppProvider>
@@ -28,6 +29,12 @@ const App = () => {
                 <div className='row mt-3'>
                     <div className='col-sm'>
                         <ItemSelected/>
+                    </div>
+                </div>
+                <h1 className='mt-3'>Company's Budget Allocation</h1>
+                <div className='row mt-3'>
+                    <div className='col-sm'>
+                        <Budget />
                     </div>
                 </div>
             </div>
